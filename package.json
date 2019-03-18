@@ -4,7 +4,7 @@
   "description": "",
   "main": "",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
+    "start": "webpack-dev-server --mode development --open",
     "test": "jest --coverage",
     "lint": "eslint .",
     "build": "webpack --mode production"
